@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>《原神》官网-米哈游全新开放世界</title>
+	<style>
+		*{margin: 0;padding: 0;list-style: none;text-decoration: none;box-sizing: border-box;}
+		.pc{
+			width: 100%;
+			height: auto;
+			background: url(beijing_1.jpg) no-repeat;
+		}
+		.top{
+			position: relative;
+			min-height: 1100px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: url("bgimg.jpg") no-repeat center center;
+		}
+		.row_between{
+			width: 100%;
+			position: fixed;
+			padding: 10px 50px;
+			
+			display: flex;
+			z-index: 10;
+			justify-content: space-between;
+		}
+		.row_end{
+			display: flex;
+			justify-content: end;
+		}
+		.row_center{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.row_end img{margin-left: 20px;}
+		.sp{
+			width: 50%;
+			/* position: absolute;
+			top: 50%;
+			left: 25%; */
+		}
+		.img_100{width: 100%;}
+		.img_50{width: 50%;}
+		.row_around{
+			width: 50%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+			background: url(kuang.png) no-repeat center center 100%;
+		}
+		.row_3{
+			width: 45rem;
+			height: 11.875rem;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+			background: url(kuang.png) no-repeat;
+			background-size: cover;
+		}
+		.w-100{
+			width: 100%;
+		}
+		.col-3{
+			flex: 0 0 25%;
+		}
+		.p-2{padding: 1.25rem;}
+		.p-1{padding: 0.625rem;}
+		.position_r{position: relative;}
+		.position_a{position: absolute;}
+		.logo.position_a{
+			top: 40%;
+			left: 40%;
+		}
+		.bottom{
+			width: 100%;
+			height: auto;
+			position: relative;
+			top: -31.25rem;
+			background: url(bgimg_2.png) no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="pc">
+		<!-- 固定定位 -->
+		<div class="row_between">
+			<div class="">
+				<a href="#"><img src="logo.png"></a>
+			</div>
+			<div class="row_end">
+				<a href="#"><img src="jingyin.png"></a>
+				<a href="#"><img src="guanwang.png"></a>
+			</div>
+		</div>		
+		<!-- 固定定位 -->
+		<div class="top">
+			<div class="row_center sp">
+				<img class="img_100" src="19.png">
+				<img class="img_50" src="shipin.png">
+			</div>
+			<!-- 下载端 -->
+			<div class="row_3">
+				<div class="col-3">
+					<div class="p-1"><img class="w-100" src="pc.png" ></div>
+				</div>
+				<div class="col-3">
+					<div class=""><img class="w-100" src="anzhuo.png" ></div>
+					<div class=""><img class="w-100" src="ios.png" ></div>
+				</div>
+				<div class="col-3">
+					<div class=""><img class="w-100" src="tap.png" ></div>
+					<div class=""><img class="w-100" src="ps4.png" ></div>
+				</div>
+				<div class="col-3">
+					<div class="p-1 position_r">
+						<img class="w-100" src="2.png">
+						<img class="logo position_a" src="logo_2.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 以上为顶部 -->
+		<div class="bottom">
+			
+			
+			
+		</div>
+		
+	</div>
+</body>
+</html>
